@@ -1,10 +1,7 @@
+# Created by AhmadReza Anaami
 import cv2
 
-
-
 img = cv2.imread("RES/1.jpg" , 1 )
-
-
 
 
 Face_Detection = cv2.CascadeClassifier("RES/haarcascade_frontalface_default.xml")
